@@ -10,7 +10,7 @@ setUser(null);
     return (<nav>
         <span>Welcome, {user.name}</span>
         &nbsp; | &nbsp;
-        <Link to="/orders">Order History </Link>
+        <Link to="/orders" >Order History </Link>
         &nbsp; | &nbsp;
        
         <Link to="/orders/new">New Order </Link>
